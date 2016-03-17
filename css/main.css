@@ -16,18 +16,20 @@ html {
 
 .grains li {
   display: block;
+  float: left;
 }
 
 .grains img {
   width: 100px;
+  float: left;
 }
 
 .grains h2 {
   font-size: 2rem;
   display: block;
-
 }
 
 .grains p {
-
+  font-style: italic;
+  display: block;
 }
