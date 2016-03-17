@@ -15,7 +15,7 @@ html {
 }
 
 .grains li {
-
+  display: block;
 }
 
 .grains img {
@@ -23,6 +23,8 @@ html {
 }
 
 .grains h2 {
+  font-size: 2rem;
+  display: block;
 
 }
 
