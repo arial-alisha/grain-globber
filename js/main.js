@@ -1,18 +1,5 @@
-var $h1 = $('h1');
+var $ul = $('ul');
 
-var writeGrains = function (grains) {
+grains.forEach(function (grain) {
 
-  document.write('<ul>');
 
-  grains.forEach(function (blah) {
-    document.write('<li>');
-    document.write('<img src="images/' + blah.img + '" alt="">');
-    document.write('<h2>' + blah.name + '</h2>');
-    document.write('<p>' + blah.desc + '</p>');
-    document.write('</li>');
-  });
-
-  document.write('</ul>');
-};
-
-writeGrains(grains);
