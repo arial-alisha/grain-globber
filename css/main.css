@@ -17,11 +17,13 @@ html {
 .grains li {
   display: block;
   float: left;
+  position: relative;
 }
 
 .grains img {
   width: 100px;
   float: left;
+  display: block;
 }
 
 .grains h2 {
